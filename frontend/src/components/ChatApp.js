@@ -4,10 +4,12 @@ import { ToastContainer, toast } from "react-toastify";
 import EmojiPicker from "emoji-picker-react";
 import "react-toastify/dist/ReactToastify.css";
 import "./ChatApp.css";
+require("dotenv").config();
+
 import { ethers } from "ethers"; // Import ethers.js for wallet signer
 import * as PushAPI from "@pushprotocol/restapi"; // Import PushAPI
 
-const TENOR_API_KEY = "AIzaSyCRHsgCv5Au_JgsOHufJOvFm0RBryEkB1c";
+const TENOR_API_KEY = process.env.TENOR_API_KEY;
 
 // const knownThreadHash =
 //   "v2:3ef1ca8d192d2aa334ea4ff50dd7884d42cdca623d6baa827616662aad9ae759";
