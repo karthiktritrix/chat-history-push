@@ -1,0 +1,36 @@
+HELLO WORLD APP IN REACT NATIVE 
+
+To create a new Expo project, run the following in your terminal:
+
+npx create-expo-app@latest
+
+npm run android
+
+CREATE APK FILE FOR REACT NATIVE APP
+
+npm install -g expo-cli
+
+npm install
+
+npm install react-native
+
+npm cache clean --force
+npm install
+
+
+npx expo build: android
+
+npm install -g eas-cli
+
+npx eas-cli --version
+
+npx eas build:configure
+
+npx eas build -p android
+
+
+
+
+APK 
+
+https://expo.dev/accounts/aafreen/projects/hello-world/builds/c92d7846-8f97-4aaf-9228-a7873c5bbf76
